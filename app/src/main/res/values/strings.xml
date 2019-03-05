@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BinarTest</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="pass_valid">Enter password again</string>
+    <string name="or_register">or register</string>
+</resources>

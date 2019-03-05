@@ -27,7 +27,7 @@ class LoginActivity : AppCompatActivity() {
 
             when {
                 email.isEmpty() -> toast("Email can't be empty")
-                pass.isEmpty() -> toast("Name can't be empty")
+                pass.isEmpty() -> toast("Password can't be empty")
                 !email.equals(sp.email, ignoreCase = true) -> toast("Wrong Email")
                 pass != sp.pass -> toast("Wrong Password")
 

@@ -32,7 +32,7 @@ class RegisterActivity : AppCompatActivity() {
 
                 pass.isEmpty() -> toast("Password can't be empty")
                 pass.length < 6 -> toast("Minimum pass is 6 character")
-                passValid.isEmpty() -> toast("Passwor validation can't be empty")
+                passValid.isEmpty() -> toast("Password validation can't be empty")
 
                 pass != passValid -> toast("Password not same")
 
